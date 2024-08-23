@@ -20,6 +20,8 @@ import ReadListPage from './components/ProfileScreens/ReadListPage';
 import About from './components/GeneralScreens/About';
 import Team from './components/GeneralScreens/Team'
 import Sc1 from './components/GeneralScreens/sc1';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
 
