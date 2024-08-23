@@ -10,6 +10,7 @@ import g1 from "../../Assets/g2.jpeg";
 import g2 from "../../Assets/i1.jpeg";
 import j1 from "../../Assets/j1.jpeg";
 import j2 from "../../Assets/j2.jpeg";
+import TestimonialSlider from './Testimonials'
 
 const IconRow = styled.div`
   display: flex;
@@ -178,6 +179,10 @@ export default function Sc1() {
         </Container>
       </Container>
       <Sc2 />
+      <center>
+      <h3>What our clients say about us</h3>
+      </center>
+      <TestimonialSlider />
     </Styles>
   );
 }
